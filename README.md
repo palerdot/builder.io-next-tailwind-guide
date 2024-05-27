@@ -1,9 +1,9 @@
 # Builder.io + Next + Tailwind guide
 
-Builder.io lets you build websites with a simple drag and drop interface. It also allows you to integrate seamlessly with existing components  built by your developers. Let us explore how to bootstrap a `Builder.io` drag and drop interface within a `Next.js` app.
+Builder.io lets you build websites with a simple drag and drop interface. It also allows you to integrate seamlessly with existing components built by your developers. Let us explore how to create a page with a drag and drop interface powered by `Builder` and `Next.js`.
 
 
-Before configuring a nextjs powered builder.io project, you can also quickly bootstrap this setup in two simple commands.
+Before configuring a `Builder` powered `Next.js` project, you can also quickly bootstrap this setup in two simple commands.
 
 1. Configure Nextjs with tailwind
 
