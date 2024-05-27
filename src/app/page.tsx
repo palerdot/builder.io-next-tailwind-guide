@@ -1,13 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from "next/image"
+import styles from "./page.module.css"
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          Builder.io / Nextjs / tailwind starter &nbsp;
+          <code className={styles.code}>https://builder.io</code>
         </p>
         <div>
           <a
@@ -91,5 +92,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  );
+  )
 }
