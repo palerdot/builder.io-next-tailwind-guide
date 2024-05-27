@@ -23,6 +23,8 @@ After you run this command, you can open the webapp at `localhost:3000` and ever
 
 Now let us check out how to configure a `Builder.io` project with `Next.js/tailwind`.
 
+# 1. Setup
+
 ### Setup Nextjs app (`app` directory)
 
 ```javascript
@@ -175,7 +177,7 @@ To enable preview URL
 - Go to the [Models](https://builder.io/models) section and choose the page model.
 - Set the preview URL to `http://localhost:3000`. Make sure to configure your port correctly if your nextjs app is using a different port.
 
-### Creating Builder Pages
+# 2. Creating Builder Pages
 
 Most powerful feature of `Builder` is an intuitive drag-and-drop page builder that integrates seamlessly with your existing codebase. You can use this drag-and-drop page builder without any coding knowledge.
 
@@ -185,6 +187,9 @@ To create `Builder` Pages
 - In the newly created page, drag and drop any elements from the visual editor. For example, you can drag a `Contact us` text block.
 - Click `Publish` to publish your changes. Now visit the `http://localhost:3000/contact` page. You have created a `Contact us` page without any coding.
 
-The best part about `Builder` is your drag and drop pages will seamlessly integrate with custom components created by your developers. 
+To update `Builder` pages, you can use the `builder.io` visual editor. Changes will be published instantly without any code changes. The best part about `Builder` is your drag and drop pages will seamlessly integrate with custom components created by your developers. 
 
-For a more detailed guide, visit https://www.builder.io/c/docs/integrating-builder-pages. For an example repo, checkout https://github.com/palerdot/builder.io-next-tailwind-guide.
+# 3. Additional Resources
+
+- For a more detailed guide, visit https://www.builder.io/c/docs/integrating-builder-pages. 
+- For an example repo, checkout https://github.com/palerdot/builder.io-next-tailwind-guide.
