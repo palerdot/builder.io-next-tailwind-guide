@@ -187,4 +187,4 @@ To create `Builder` Pages
 
 The best part about `Builder` is your drag and drop pages will seamlessly integrate with custom components created by your developers. 
 
-For a more detailed guide, visit https://www.builder.io/c/docs/integrating-builder-pages. 
+For a more detailed guide, visit https://www.builder.io/c/docs/integrating-builder-pages. For an example repo, checkout https://github.com/palerdot/builder.io-next-tailwind-guide.
