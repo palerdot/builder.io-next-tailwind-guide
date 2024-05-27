@@ -33,7 +33,7 @@ npx create-next
 
 You can bootstrap a nextjs app with your preferred configuration. You can select `tailwind` as your preferred styling library in the configuration screen.
 
-# Configuring `Tailwind` manually
+### Configuring `Tailwind` manually
 
 Let us see how to configure `Tailwind` manually in your existing nextjs project
 
@@ -75,7 +75,7 @@ module.exports = {
 Congrats! You have configured tailwind for your `Next` app.
 
 
-# Configure `Builder`
+### Configure `Builder`
 
 To get started with `builder.io`, add `Builder` dependencies.
 
