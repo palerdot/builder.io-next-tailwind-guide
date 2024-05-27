@@ -1,6 +1,6 @@
-# Guide
+# Builder.io + Next + Tailwind guide
 
-Builder.io lets you to build websites with a simple drag and drop interface. It also allows you to integrate seamlessly with existing components  built by your developers. Let us explore how to bootstrap a builder io drag and drop interface within a nextjs app.
+Builder.io lets you build websites with a simple drag and drop interface. It also allows you to integrate seamlessly with existing components  built by your developers. Let us explore how to bootstrap a `Builder.io` drag and drop interface within a `Next.js` app.
 
 
 Before configuring a nextjs powered builder.io project, you can also quickly bootstrap this setup in two simple commands.
@@ -21,7 +21,7 @@ npm init builder.io --latest
 
 After you run this command, you can open the webapp at `localhost:3000` and everything will be automatically configured for you. 
 
-Now let us check out, how to configure a `builder.io` project with `nextjs/tailwind`.
+Now let us check out how to configure a `Builder.io` project with `Next.js/tailwind`.
 
 ### Setup Nextjs app (`app` directory)
 
@@ -33,7 +33,7 @@ You can bootstrap a nextjs app with your preferred configuration. You can select
 
 # Configuring `Tailwind` manually
 
-Let us see how to configure `tailwind` manually in your existing nextjs project
+Let us see how to configure `Tailwind` manually in your existing nextjs project
 
 - Install tailwind dependencies
 
@@ -85,7 +85,7 @@ npm install --save @builder.io/sdk @builder.io/react
 
 You need a valid api key to configure a `Builder` project. You can get this easily by logging in/signing up for a `builder.io` account. If you have a github account, you can easily create an account with one single click. 
 
-After logging into your `builder.io` account, you can get your api keys by pressing `Cmd + k` and typing `api key`. Select, `Copy API` key option from the command pallete.
+After logging into your `builder.io` account, you can get your api keys by pressing `Cmd + k` and typing `api key`. Select, `Copy API` key option from the command palette.
 
 Alternatively, you can go to the account settings screen and get your API Key.
 
@@ -172,8 +172,8 @@ Most common way to use `Builder` with your existing `nextjs` app is to configure
 
 To enable preview URL
 
-- Go to [Models](https://builder.io/models) section and choose page model.
-- Set the preview URL to `http://localhost:3000`. Make sure to configure your port correctly if your nextjs app is using a differnt port.
+- Go to the [Models](https://builder.io/models) section and choose the page model.
+- Set the preview URL to `http://localhost:3000`. Make sure to configure your port correctly if your nextjs app is using a different port.
 
 ### Creating Builder Pages
 
@@ -183,7 +183,7 @@ To create `Builder` Pages
 - Go to [Content](https://builder.io/content) and click `+New`. 
 - Create a new page by giving an appropriate title, e.g `Contact`. `Builder` automatically generates an URL (`/contact`) for you.
 - In the newly created page, drag and drop any elements from the visual editor. For example, you can drag a `Contact us` text block.
-- Click `Publish` to publish your changes. Now visit `http://localhost:3000/contact` page. You have created a `Contact us` page without any coding.
+- Click `Publish` to publish your changes. Now visit the `http://localhost:3000/contact` page. You have created a `Contact us` page without any coding.
 
 The best part about `Builder` is your drag and drop pages will seamlessly integrate with custom components created by your developers. 
 
